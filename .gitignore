@@ -1,0 +1,8 @@
+/host/
+/results/
+/venv/
+/3_BigData/json/json_performance.txt
+/3_BigData/xml/xml_performance.txt
+/4_ExtractionConnaissances/Fouille de données/JClose/mh/mh_pubmed_data_processed.csv
+/4_ExtractionConnaissances/Fouille de données/JClose/mesh/mesh_data_processed.csv
+/4_ExtractionConnaissances/Fouille de données/mh_data_processed.csv
