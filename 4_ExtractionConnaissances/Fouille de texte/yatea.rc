@@ -1,0 +1,22 @@
+<OPTIONS>
+    printChunking = 0
+    match-type = 
+    debug = 0
+    annotate-only = 0
+    termList = all
+    XML-corpus-for-BioLG = 0
+    TC-for-BioLG = 0
+    language = EN
+    TTG-style-term-candidates = multi
+    xmlout = 1
+    TT-for-BioLG = 0
+    monolexical-all = 0
+    suffix = default
+    MESSAGE_DISPLAY = EN
+    monolexical-included = 0
+</OPTIONS>
+<DefaultConfig>
+    LOCALE_DIR = /usr/share/YaTeA/locale
+    RESULT_DIR = \$PWD/RESULTS
+    CONFIG_DIR = /usr/share/YaTeA/config
+</DefaultConfig>
