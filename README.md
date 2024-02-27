@@ -25,7 +25,8 @@
 - Téléchargement de fichier `litcovid2BioCXML.gz` à partir du FTP ***<https://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/>***.
 - Chargement du fichier en Python pour le traiter (vu l'incapabilité de base de données native XML de traiter des fichier de grande taille).
 - Extraction d'un fichier `articles.xml` sous la forme :
-  ```xml
+
+```xml
 <articles>
     <article pmid="101010">
         <title>example</title>
@@ -33,7 +34,7 @@
         <abstract>abstract 2</abstract>
     </article>
 </articles>
-  ```
+```
 
 ##### BaseX
 
