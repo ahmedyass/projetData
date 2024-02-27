@@ -13,7 +13,6 @@
         - [MongoDB](#mongodb)
         - [Integration en bdd](#integration-en-bdd-1)
       - [Neo4j](#neo4j)
-      - [Comparaison](#comparaison)
     - [Data Mining](#data-mining)
 
 ---
@@ -26,15 +25,15 @@
 - Chargement du fichier en Python pour le traiter (vu l'incapabilité de base de données native XML de traiter des fichier de grande taille).
 - Extraction d'un fichier `articles.xml` sous la forme :
 
-```xml
-<articles>
-    <article pmid="101010">
-        <title>example</title>
-        <abstract>abstract 1</abstract>
-        <abstract>abstract 2</abstract>
-    </article>
-</articles>
-```
+  ```xml
+  <articles>
+      <article pmid="101010">
+          <title>example</title>
+          <abstract>abstract 1</abstract>
+          <abstract>abstract 2</abstract>
+      </article>
+  </articles>
+  ```
 
 ##### BaseX
 
@@ -226,11 +225,6 @@ cypher-shell -u neo4j -p your_password
 
 cypher-shell -u neo4j -p your_password < query.cypher
 ```
-
-#### Comparaison
-
-- Définition des métriques
-- Query "xquery.xq" executed in 7287.57 ms.
 
 ---
 
